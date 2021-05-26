@@ -1,0 +1,66 @@
+div.introduction-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+div.frameworks {
+  display: grid;
+  grid-template-areas: 
+  "framework framework framework";
+  justify-content: space-evenly;
+  justify-items: center;
+  width: 60%;
+}
+
+div.languages {
+  display: grid;
+  grid-template-areas: 
+  "language language language language language";
+  justify-content: space-evenly;
+  justify-items: center;
+  width: 80%;
+}
+
+h1.name {
+  font-size: 5vw;
+}
+
+h2.title {
+  font-size: 3vw;
+  opacity: 50%;
+}
+
+h3.framework {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 1vw;
+  padding: 1vw;
+  font-size: 3vw;
+}
+
+h4.language {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 1vw;
+  padding: 1vw;
+  font-size: 2vw;
+  width: fit-content;
+}
+
+/* For smaller viewports */
+@media only screen and (max-width: 960px) {
+  h1.name {
+    font-size: 9vw;
+  }
+  
+  h2.title {
+    font-size: 5vw;
+  }
+  
+  h3.framework {
+    font-size: 6vw;
+  }
+  
+  h4.language {
+    font-size: 4vw;
+  }
+}

@@ -1,10 +1,10 @@
 import React from 'react';
-import { Bio } from './views/bio/Bio';
+import { Introduction } from './views/introduction/Introduction';
 
 function App() {
   return (
     <div>
-      <Bio />
+      <Introduction />
     </div>
   );
 }
